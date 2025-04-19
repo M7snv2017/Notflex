@@ -1,0 +1,31 @@
+/* Nav.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.nav {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;/*#000000c2;/ */
+    padding: 10px 20px;
+    z-index: -1;
+}
+
+.navbar-left img {
+    height: 40px;
+}
+
+.navbar-center .navbar-text {
+    color: white;
+    font-size: 18px;
+    z-index: 1;
+
+}
+
+

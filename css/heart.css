@@ -1,0 +1,47 @@
+
+.heart {
+    height: 30px;
+    width: 30px;
+    background: #ffffff; /* Default color */
+    transform: rotate(-45deg);
+    cursor: pointer;
+    margin-right: 40px;
+    position: relative; /* Make sure pseudo-elements position correctly */
+}
+
+.heart:before, .heart:after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: inherit; /* Inherit from .heart */
+    border-radius: 50px;
+}
+
+.heart:before {
+    top: -50%;
+}
+
+.heart:after {
+    right: -50%;
+}
+
+ .bottom{
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+
+    float: right;
+    right: 5%;    /* Adjust the margin from the right */
+    bottom: 5%;   /* Adjust the margin from the bottom */
+    display: flex;
+    align-items: center;
+    gap: 10px;    /* Add space between the heart and button */
+}
+.movie-info .buttons, .movie-info .heart {
+    display: inline-flex;
+    align-items: center;
+    
+    font-size: 16px;
+}

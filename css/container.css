@@ -1,0 +1,28 @@
+.container{
+ background-color: rgba(0, 0, 0, 0.677);
+ color: white;
+ display: block;
+ justify-content: space-around;
+ align-items: center;
+ align-content: center;
+ padding-top: 20px;
+ padding-left: 10px;
+ padding-bottom: 20px;
+ margin: 40px auto;
+ height: 100%;
+ width: 1300px;
+ border-radius: 40px;
+}
+/* .movie{
+    display: inline-flex;
+    width: 600px;
+    margin-left: 10px;
+    font-size: larger;
+}
+.movie img{
+    width:  284px;
+    
+}
+.movie .movie-info{
+    margin-left: 5px;
+} */

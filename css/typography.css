@@ -1,0 +1,13 @@
+/* typography.css */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+h1 {
+    font-size: 2em;
+    color: #fff;
+}
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}

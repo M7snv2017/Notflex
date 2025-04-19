@@ -1,0 +1,47 @@
+
+
+/*     <a href=""><button class="buttons"><span></span><p>Back</p></button></a> */
+.buttons {
+    
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 0;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #b0bc00;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.buttons:hover {
+    border: none;
+}
+
+.buttons p {
+    z-index: 1;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+
+.buttons span {
+    background: #a59427;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    transition: width 0.000001s;
+}
+
+.buttons:hover span {
+    width: 100%;
+}

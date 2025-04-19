@@ -1,0 +1,14 @@
+.movie{
+    display: inline-flex;
+    width: 600px;
+    margin-left: 10px;
+    font-size: larger;
+}
+.movie img{
+    width:  284px;
+    height: 177px;
+    border-radius: 25px;
+}
+.movie .movie-info{
+    margin-left: 5px;
+}
