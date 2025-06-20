@@ -1,4 +1,4 @@
-## simple web project
+## Simple Web Project
 
 
 ![image](https://github.com/user-attachments/assets/c3650b6b-3bbd-4bcb-bc19-a38a18ad3462)
